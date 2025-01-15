@@ -71,7 +71,7 @@ const Login = () => {
 
       <form onSubmit={handleLogin}>
         <div>
-          <label>name</label>
+          <label>Username :</label>
           <input
             type="text"
             value={username}
@@ -79,7 +79,7 @@ const Login = () => {
           />
         </div>
         <div>
-          <label>password</label>
+          <label>Password :</label>
           <input
             type="password"
             value={password}
